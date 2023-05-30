@@ -94,4 +94,9 @@ aside>ul{
 }
 section{
     text-align: center;
+    margin: 20px;
+}
+section >p{
+    background-color: var(--cor4);
+    color: white;
 }
