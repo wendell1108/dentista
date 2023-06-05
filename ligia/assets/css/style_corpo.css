@@ -1,9 +1,10 @@
+
 .container {
-    width: 500px;
+    overflow: hidden;
+    text-align: justify;
   }
 
   .container img {
     float: left;
     margin-right: 20px;
-    text-align: right;
   }
