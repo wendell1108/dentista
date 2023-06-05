@@ -1,0 +1,43 @@
+/*#######################*/
+/*ESTILOS PARA CABECALHO*/
+/*#######################*/
+
+.cabecalho {
+    display: flex;
+    margin: 1rem 15rem 0 1.5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 1rem;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.cabecalho_logo img{
+    height: 120px;
+}
+
+.cabecalho_lista_item a{
+    position: relative;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 0 8px;
+}
+
+.cabecalho_lista_item a:after {
+    content: "";
+    position: absolute;
+    background-color: #4e8666;
+    height: 3px;
+    width: 0;
+    left: 0;
+    transition: 0.3s;
+    bottom: -6px;
+}
+
+.cabecalho_lista_item a:hover:after {
+    width: 150px;
+}
